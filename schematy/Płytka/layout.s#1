@@ -6,36 +6,36 @@
 <setting alwaysvectorfont="no"/>
 <setting verticaltext="up"/>
 </settings>
-<grid distance="0.1" unitdist="inch" unit="inch" style="dots" multiple="1" display="yes" altdistance="0.01" altunitdist="inch" altunit="inch"/>
+<grid distance="0.01" unitdist="inch" unit="inch" style="dots" multiple="1" display="yes" altdistance="0.01" altunitdist="inch" altunit="inch"/>
 <layers>
-<layer number="1" name="Top" color="4" fill="1" visible="no" active="no"/>
-<layer number="2" name="Route2" color="1" fill="3" visible="no" active="no"/>
-<layer number="3" name="Route3" color="4" fill="3" visible="no" active="no"/>
-<layer number="4" name="Route4" color="1" fill="4" visible="no" active="no"/>
-<layer number="5" name="Route5" color="4" fill="4" visible="no" active="no"/>
-<layer number="6" name="Route6" color="1" fill="8" visible="no" active="no"/>
-<layer number="7" name="Route7" color="4" fill="8" visible="no" active="no"/>
-<layer number="8" name="Route8" color="1" fill="2" visible="no" active="no"/>
-<layer number="9" name="Route9" color="4" fill="2" visible="no" active="no"/>
-<layer number="10" name="Route10" color="1" fill="7" visible="no" active="no"/>
-<layer number="11" name="Route11" color="4" fill="7" visible="no" active="no"/>
-<layer number="12" name="Route12" color="1" fill="5" visible="no" active="no"/>
-<layer number="13" name="Route13" color="4" fill="5" visible="no" active="no"/>
-<layer number="14" name="Route14" color="1" fill="6" visible="no" active="no"/>
-<layer number="15" name="Route15" color="4" fill="6" visible="no" active="no"/>
-<layer number="16" name="Bottom" color="1" fill="1" visible="no" active="no"/>
-<layer number="17" name="Pads" color="2" fill="1" visible="no" active="no"/>
-<layer number="18" name="Vias" color="2" fill="1" visible="no" active="no"/>
-<layer number="19" name="Unrouted" color="6" fill="1" visible="no" active="no"/>
-<layer number="20" name="Dimension" color="15" fill="1" visible="no" active="no"/>
-<layer number="21" name="tPlace" color="7" fill="1" visible="no" active="no"/>
-<layer number="22" name="bPlace" color="7" fill="1" visible="no" active="no"/>
-<layer number="23" name="tOrigins" color="15" fill="1" visible="no" active="no"/>
-<layer number="24" name="bOrigins" color="15" fill="1" visible="no" active="no"/>
-<layer number="25" name="tNames" color="7" fill="1" visible="no" active="no"/>
-<layer number="26" name="bNames" color="7" fill="1" visible="no" active="no"/>
-<layer number="27" name="tValues" color="7" fill="1" visible="no" active="no"/>
-<layer number="28" name="bValues" color="7" fill="1" visible="no" active="no"/>
+<layer number="1" name="Top" color="4" fill="1" visible="yes" active="no"/>
+<layer number="2" name="Route2" color="1" fill="3" visible="yes" active="no"/>
+<layer number="3" name="Route3" color="4" fill="3" visible="yes" active="no"/>
+<layer number="4" name="Route4" color="1" fill="4" visible="yes" active="no"/>
+<layer number="5" name="Route5" color="4" fill="4" visible="yes" active="no"/>
+<layer number="6" name="Route6" color="1" fill="8" visible="yes" active="no"/>
+<layer number="7" name="Route7" color="4" fill="8" visible="yes" active="no"/>
+<layer number="8" name="Route8" color="1" fill="2" visible="yes" active="no"/>
+<layer number="9" name="Route9" color="4" fill="2" visible="yes" active="no"/>
+<layer number="10" name="Route10" color="1" fill="7" visible="yes" active="no"/>
+<layer number="11" name="Route11" color="4" fill="7" visible="yes" active="no"/>
+<layer number="12" name="Route12" color="1" fill="5" visible="yes" active="no"/>
+<layer number="13" name="Route13" color="4" fill="5" visible="yes" active="no"/>
+<layer number="14" name="Route14" color="1" fill="6" visible="yes" active="no"/>
+<layer number="15" name="Route15" color="4" fill="6" visible="yes" active="no"/>
+<layer number="16" name="Bottom" color="1" fill="1" visible="yes" active="no"/>
+<layer number="17" name="Pads" color="2" fill="1" visible="yes" active="no"/>
+<layer number="18" name="Vias" color="2" fill="1" visible="yes" active="no"/>
+<layer number="19" name="Unrouted" color="6" fill="1" visible="yes" active="no"/>
+<layer number="20" name="Dimension" color="15" fill="1" visible="yes" active="no"/>
+<layer number="21" name="tPlace" color="7" fill="1" visible="yes" active="no"/>
+<layer number="22" name="bPlace" color="7" fill="1" visible="yes" active="no"/>
+<layer number="23" name="tOrigins" color="15" fill="1" visible="yes" active="no"/>
+<layer number="24" name="bOrigins" color="15" fill="1" visible="yes" active="no"/>
+<layer number="25" name="tNames" color="7" fill="1" visible="yes" active="no"/>
+<layer number="26" name="bNames" color="7" fill="1" visible="yes" active="no"/>
+<layer number="27" name="tValues" color="7" fill="1" visible="yes" active="no"/>
+<layer number="28" name="bValues" color="7" fill="1" visible="yes" active="no"/>
 <layer number="29" name="tStop" color="7" fill="3" visible="no" active="no"/>
 <layer number="30" name="bStop" color="7" fill="6" visible="no" active="no"/>
 <layer number="31" name="tCream" color="7" fill="4" visible="no" active="no"/>
@@ -44,8 +44,8 @@
 <layer number="34" name="bFinish" color="6" fill="6" visible="no" active="no"/>
 <layer number="35" name="tGlue" color="7" fill="4" visible="no" active="no"/>
 <layer number="36" name="bGlue" color="7" fill="5" visible="no" active="no"/>
-<layer number="37" name="tTest" color="7" fill="1" visible="no" active="no"/>
-<layer number="38" name="bTest" color="7" fill="1" visible="no" active="no"/>
+<layer number="37" name="tTest" color="7" fill="1" visible="yes" active="no"/>
+<layer number="38" name="bTest" color="7" fill="1" visible="yes" active="no"/>
 <layer number="39" name="tKeepout" color="4" fill="11" visible="no" active="no"/>
 <layer number="40" name="bKeepout" color="1" fill="11" visible="no" active="no"/>
 <layer number="41" name="tRestrict" color="4" fill="10" visible="no" active="no"/>
@@ -53,12 +53,12 @@
 <layer number="43" name="vRestrict" color="2" fill="10" visible="no" active="no"/>
 <layer number="44" name="Drills" color="7" fill="1" visible="no" active="no"/>
 <layer number="45" name="Holes" color="7" fill="1" visible="no" active="no"/>
-<layer number="46" name="Milling" color="3" fill="1" visible="no" active="no"/>
-<layer number="47" name="Measures" color="7" fill="1" visible="no" active="no"/>
-<layer number="48" name="Document" color="7" fill="1" visible="no" active="no"/>
-<layer number="49" name="Reference" color="7" fill="1" visible="no" active="no"/>
-<layer number="51" name="tDocu" color="7" fill="1" visible="no" active="no"/>
-<layer number="52" name="bDocu" color="7" fill="1" visible="no" active="no"/>
+<layer number="46" name="Milling" color="3" fill="1" visible="yes" active="no"/>
+<layer number="47" name="Measures" color="7" fill="1" visible="yes" active="no"/>
+<layer number="48" name="Document" color="7" fill="1" visible="yes" active="no"/>
+<layer number="49" name="Reference" color="7" fill="1" visible="yes" active="no"/>
+<layer number="51" name="tDocu" color="7" fill="1" visible="yes" active="no"/>
+<layer number="52" name="bDocu" color="7" fill="1" visible="yes" active="no"/>
 <layer number="88" name="SimResults" color="9" fill="1" visible="yes" active="yes"/>
 <layer number="89" name="SimProbes" color="9" fill="1" visible="yes" active="yes"/>
 <layer number="90" name="Modules" color="5" fill="1" visible="yes" active="yes"/>
@@ -70,13 +70,13 @@
 <layer number="96" name="Values" color="7" fill="1" visible="yes" active="yes"/>
 <layer number="97" name="Info" color="7" fill="1" visible="yes" active="yes"/>
 <layer number="98" name="Guide" color="6" fill="1" visible="yes" active="yes"/>
-<layer number="101" name="pł_glowna" color="12" fill="1" visible="yes" active="yes"/>
-<layer number="102" name="pł_ster" color="3" fill="1" visible="yes" active="yes"/>
-<layer number="103" name="pł_syg-wy" color="14" fill="1" visible="yes" active="yes"/>
+<layer number="101" name="pł_glowna" color="12" fill="1" visible="no" active="yes"/>
+<layer number="102" name="pł_ster" color="3" fill="1" visible="no" active="yes"/>
+<layer number="103" name="pł_syg-wy" color="14" fill="1" visible="no" active="yes"/>
 <layer number="104" name="STM" color="11" fill="1" visible="yes" active="yes"/>
 <layer number="105" name="Tekst" color="7" fill="1" visible="yes" active="yes"/>
 <layer number="114" name="wymiary" color="1" fill="1" visible="yes" active="yes"/>
-<layer number="253" name="Obwód" color="4" fill="1" visible="yes" active="yes"/>
+<layer number="253" name="Area" color="4" fill="1" visible="yes" active="yes"/>
 </layers>
 <schematic xreflabel="%F%N/%S.%C%R" xrefpart="/%S.%C%R">
 <libraries>
@@ -482,6 +482,10 @@ W = angled&lt;p&gt;
 <sheets>
 <sheet>
 <plain>
+<rectangle x1="0" y1="0" x2="368.3" y2="279.4" layer="101" rot="R180"/>
+<rectangle x1="244.884" y1="183.642" x2="341.884" y2="249.642" layer="104" rot="R180"/>
+<text x="-2.286" y="-28.448" size="25.4" layer="105">Płyta Główna</text>
+<rectangle x1="212.09" y1="148.59" x2="364.49" y2="275.59" layer="102"/>
 <dimension x1="0" y1="0" x2="0" y2="279.4" x3="0" y3="139.7" textsize="1.778" layer="16" unit="inch"/>
 <dimension x1="0" y1="0" x2="0" y2="279.4" x3="0.254" y3="139.7" textsize="1.778" layer="16" unit="inch"/>
 <dimension x1="0" y1="0" x2="0" y2="279.4" x3="0.762" y3="139.7" textsize="1.778" layer="16" unit="inch"/>
@@ -495,70 +499,57 @@ W = angled&lt;p&gt;
 <dimension x1="0" y1="279.4" x2="368.3" y2="279.4" x3="184.15" y3="279.908" textsize="1.778" layer="16" unit="inch"/>
 <dimension x1="163.322" y1="280.416" x2="161.544" y2="278.892" x3="162.020625" y3="280.135103125" textsize="1.778" layer="16" unit="inch"/>
 <dimension x1="0" y1="279.4" x2="368.3" y2="279.4" x3="184.15" y3="279.908" textsize="1.778" layer="16" unit="inch"/>
+<dimension x1="0" y1="279.4" x2="368.3" y2="279.4" x3="184.15" y3="300.228" textsize="1.778" layer="114" unit="inch"/>
+<dimension x1="0" y1="279.4" x2="0" y2="0" x3="-19.05" y3="139.7" textsize="1.778" layer="114" unit="inch"/>
+<wire x1="368.3" y1="245.364" x2="364.49" y2="245.364" width="0.1524" layer="114"/>
+<wire x1="344.17" y1="279.4" x2="344.17" y2="275.59" width="0.1524" layer="114"/>
+<dimension x1="368.3" y1="245.364" x2="364.49" y2="245.364" x3="366.395" y3="242.57" textsize="1.778" layer="114" unit="inch"/>
+<dimension x1="344.17" y1="279.4" x2="344.17" y2="275.59" x3="339.852" y3="277.495" textsize="1.778" layer="114" unit="inch"/>
+<wire x1="339.344" y1="3.81" x2="339.344" y2="0" width="0.1524" layer="114"/>
+<wire x1="368.3" y1="11.938" x2="364.49" y2="11.938" width="0.1524" layer="114"/>
+<rectangle x1="212.09" y1="4.064" x2="364.49" y2="131.064" layer="103"/>
+<dimension x1="341.884" y1="249.642" x2="244.884" y2="249.642" x3="293.384" y3="257.556" textsize="1.778" layer="114" unit="inch"/>
+<dimension x1="341.884" y1="249.642" x2="341.884" y2="183.642" x3="357.632" y3="216.642" textsize="1.778" layer="114" unit="inch"/>
 <text x="802.386" y="147.32" size="10.16" layer="105" rot="MR0">Wymiary (sprawdzone):
-a1)Ni Elvis II (całość): 34.3cm (14.5 in) x 28.0cm (11.0 in)
-a2)Ni Elvis II (płyta): 27,94cm (11in) x 21,59cm(8in) 
+a)Ni Elvis II: 34.3cm (14.5 in) x 28.0cm (11.0 in)
 b)STM32F4DISCOVERY: 9,7cm(3,81 in) x 6,6cm(2,598 in)</text>
-<wire x1="0" y1="0" x2="0" y2="165.1" width="0.1524" layer="253" style="longdash"/>
-<wire x1="0" y1="165.1" x2="0" y2="203.2" width="0.1524" layer="253" style="longdash"/>
-<wire x1="0" y1="203.2" x2="63.5" y2="203.2" width="0.1524" layer="253" style="longdash"/>
-<wire x1="63.5" y1="203.2" x2="274.32" y2="203.2" width="0.1524" layer="253" style="longdash"/>
-<wire x1="274.32" y1="203.2" x2="279.4" y2="203.2" width="0.1524" layer="253" style="longdash"/>
-<wire x1="279.4" y1="203.2" x2="279.4" y2="198.12" width="0.1524" layer="253" style="longdash"/>
-<rectangle x1="162.56" y1="124.46" x2="259.56" y2="190.46" layer="104"/>
-<wire x1="279.4" y1="198.12" x2="279.4" y2="5.08" width="0.1524" layer="253" style="longdash"/>
-<wire x1="279.4" y1="5.08" x2="279.4" y2="0" width="0.1524" layer="253" style="longdash"/>
-<wire x1="279.4" y1="0" x2="274.32" y2="0" width="0.1524" layer="253" style="longdash"/>
-<dimension x1="0" y1="0" x2="0" y2="203.2" x3="-20.32" y3="101.6" textsize="1.778" layer="114" unit="inch"/>
-<dimension x1="279.4" y1="0" x2="0" y2="0" x3="139.7" y3="-5.08" textsize="1.778" layer="114" dtype="horizontal" unit="inch"/>
-<wire x1="274.32" y1="0" x2="0" y2="0" width="0.1524" layer="253" style="longdash"/>
-<wire x1="63.246" y1="38.354" x2="63.246" y2="0.254" width="0.1524" layer="253" style="shortdash"/>
-<wire x1="63.246" y1="38.354" x2="0.508" y2="38.354" width="0.1524" layer="253" style="shortdash"/>
-<wire x1="274.32" y1="0" x2="274.32" y2="5.08" width="0.1524" layer="253" style="shortdash"/>
-<wire x1="274.32" y1="5.08" x2="279.4" y2="5.08" width="0.1524" layer="253" style="shortdash"/>
-<wire x1="274.32" y1="198.12" x2="279.4" y2="198.12" width="0.1524" layer="253" style="shortdash"/>
-<wire x1="274.32" y1="203.2" x2="274.32" y2="198.12" width="0.1524" layer="253" style="shortdash"/>
-<wire x1="0" y1="165.1" x2="0.1016" y2="165.1" width="0.1524" layer="253" style="shortdash"/>
-<wire x1="0.4064" y1="165.1" x2="63.5" y2="165.1" width="0.1524" layer="253" style="shortdash"/>
-<wire x1="63.5" y1="165.1" x2="63.5" y2="202.7936" width="0.1524" layer="253" style="shortdash"/>
-<wire x1="63.5" y1="203.0984" x2="63.5" y2="203.2" width="0.1524" layer="253" style="shortdash"/>
-<wire x1="274.32" y1="198.12" x2="274.32" y2="114.3" width="0.1524" layer="102" style="longdash"/>
-<wire x1="274.32" y1="114.3" x2="152.4" y2="114.3" width="0.1524" layer="102" style="longdash"/>
-<wire x1="152.4" y1="114.3" x2="152.4" y2="198.12" width="0.1524" layer="102" style="longdash"/>
-<wire x1="152.4" y1="198.12" x2="274.32" y2="198.12" width="0.1524" layer="102" style="longdash"/>
-<dimension x1="152.4" y1="114.3" x2="152.4" y2="198.12" x3="142.24" y3="156.21" textsize="1.778" layer="114" dtype="horizontal" unit="inch"/>
-<dimension x1="274.32" y1="114.3" x2="152.4" y2="114.3" x3="213.36" y3="104.14" textsize="1.778" layer="114" dtype="horizontal" unit="inch"/>
-<wire x1="274.32" y1="5.08" x2="152.4" y2="5.08" width="0.1524" layer="103" style="longdash"/>
-<wire x1="152.4" y1="5.08" x2="152.4" y2="88.9" width="0.1524" layer="103" style="longdash"/>
-<wire x1="152.4" y1="88.9" x2="274.32" y2="88.9" width="0.1524" layer="103" style="longdash"/>
-<wire x1="274.32" y1="88.9" x2="274.32" y2="5.08" width="0.1524" layer="103" style="longdash"/>
-<dimension x1="152.4" y1="5.08" x2="152.4" y2="88.9" x3="144.78" y3="46.99" textsize="1.778" layer="114" dtype="horizontal" unit="inch"/>
-<dimension x1="274.32" y1="5.08" x2="152.4" y2="5.08" x3="213.36" y3="10.16" textsize="1.778" layer="114" dtype="horizontal" unit="inch"/>
-<text x="5.08" y="5.08" size="2.54" layer="105">PŁYTA GŁÓWNA</text>
-<text x="157.48" y="15.24" size="2.54" layer="105">SYGNAŁY WYJŚCIOWE</text>
-<text x="157.48" y="116.84" size="2.54" layer="105">STEROWANIE</text>
-<text x="190.5" y="132.08" size="2.54" layer="105">STM32F4xx DISCOVERY</text>
-<dimension x1="274.32" y1="203.2" x2="274.32" y2="198.12" x3="271.78" y3="200.66" textsize="2.54" layer="114" dtype="horizontal" unit="inch"/>
-<dimension x1="279.4" y1="198.12" x2="274.32" y2="195.58" x3="276.86" y3="195.58" textsize="2.54" layer="114" dtype="horizontal" unit="inch"/>
+<text x="309.626" y="152.908" size="7.62" layer="105">Sterowanie</text>
+<text x="257.302" y="215.392" size="5.08" layer="105">STM32F4DISCOVERY</text>
+<text x="232.918" y="14.732" size="10.16" layer="105">Sygnały wyjściowe</text>
+<wire x1="0" y1="279.4" x2="0" y2="241.3" width="0.1524" layer="253" style="longdash"/>
+<wire x1="0" y1="241.3" x2="0" y2="38.1" width="0.1524" layer="253" style="longdash"/>
+<wire x1="0" y1="38.1" x2="0" y2="0" width="0.1524" layer="253" style="longdash"/>
+<wire x1="0" y1="0" x2="90.424" y2="0" width="0.1524" layer="253" style="longdash"/>
+<wire x1="90.424" y1="0" x2="368.3" y2="0" width="0.1524" layer="253" style="longdash"/>
+<wire x1="368.3" y1="0" x2="368.3" y2="279.4" width="0.1524" layer="253" style="longdash"/>
+<wire x1="368.3" y1="279.4" x2="90.424" y2="279.4" width="0.1524" layer="253" style="longdash"/>
+<wire x1="90.424" y1="279.4" x2="0" y2="279.4" width="0.1524" layer="253" style="longdash"/>
+<wire x1="212.09" y1="148.59" x2="364.49" y2="148.59" width="0.1524" layer="253" style="longdash"/>
+<wire x1="364.49" y1="148.59" x2="364.49" y2="275.59" width="0.1524" layer="253" style="longdash"/>
+<wire x1="364.49" y1="275.59" x2="212.09" y2="275.59" width="0.1524" layer="253" style="longdash"/>
+<wire x1="212.09" y1="275.59" x2="212.09" y2="148.59" width="0.1524" layer="253" style="longdash"/>
+<wire x1="212.09" y1="131.064" x2="212.09" y2="4.064" width="0.1524" layer="253" style="longdash"/>
+<wire x1="212.09" y1="4.064" x2="364.49" y2="4.064" width="0.1524" layer="253" style="longdash"/>
+<wire x1="364.49" y1="4.064" x2="364.49" y2="131.064" width="0.1524" layer="253" style="longdash"/>
+<wire x1="364.49" y1="131.064" x2="212.09" y2="131.064" width="0.1524" layer="253" style="longdash"/>
+<wire x1="90.424" y1="279.4" x2="90.424" y2="241.3" width="0.0508" layer="253" style="shortdash"/>
+<wire x1="90.424" y1="241.3" x2="0" y2="241.3" width="0.0508" layer="253" style="shortdash"/>
+<wire x1="90.424" y1="38.1" x2="0" y2="38.1" width="0.0508" layer="253" style="shortdash"/>
+<wire x1="90.424" y1="0" x2="90.424" y2="38.1" width="0.0508" layer="253" style="shortdash"/>
 </plain>
 <instances>
-<instance part="SV1" gate="G$1" x="63.5" y="165.1" smashed="yes" rot="MR90">
-<attribute name="VALUE" x="33.02" y="161.29" size="1.778" layer="96" rot="MR90"/>
-<attribute name="NAME" x="89.662" y="161.29" size="1.778" layer="95" rot="MR90"/>
+<instance part="SV1" gate="G$1" x="90.424" y="241.3" smashed="yes" rot="MR90">
+<attribute name="VALUE" x="59.944" y="237.49" size="1.778" layer="96" rot="MR90"/>
+<attribute name="NAME" x="116.586" y="237.49" size="1.778" layer="95" rot="MR90"/>
 </instance>
-<instance part="SV2" gate="G$1" x="63.246" y="38.354" smashed="yes" rot="R270">
-<attribute name="VALUE" x="32.766" y="42.164" size="1.778" layer="96" rot="R270"/>
-<attribute name="NAME" x="89.408" y="42.164" size="1.778" layer="95" rot="R270"/>
+<instance part="SV2" gate="G$1" x="90.424" y="38.1" smashed="yes" rot="MR90">
+<attribute name="VALUE" x="59.944" y="34.29" size="1.778" layer="96" rot="MR90"/>
+<attribute name="NAME" x="116.586" y="34.29" size="1.778" layer="95" rot="MR90"/>
 </instance>
 </instances>
 <busses>
 </busses>
 <nets>
-<net name="N$1" class="0">
-<segment>
-<wire x1="63.5" y1="-35.814" x2="65.786" y2="-35.814" width="0.1524" layer="91" style="shortdash"/>
-</segment>
-</net>
 </nets>
 </sheet>
 </sheets>
