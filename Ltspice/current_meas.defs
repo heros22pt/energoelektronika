@@ -1,0 +1,8 @@
+* File: C:\Users\Konto\Documents\LTspiceXVII\plot.defs
+*
+* Define parameters and functions that you which to be able to use in
+* data plots in this file with .param and .func statements.
+.func Rsh() { abs( (V(in_1) - V(in_2))/I(R)   ) }
+.func R_1() { abs( (V(in_1) - V(out_1))/I(R11) ) }
+.func R_2() { abs(  V(out_1)/I(R21) ) }
+.func Io() {V(Vout)/Rsh()*R_1()/R_2()}
