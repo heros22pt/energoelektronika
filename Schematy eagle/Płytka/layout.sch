@@ -6,7 +6,7 @@
 <setting alwaysvectorfont="no"/>
 <setting verticaltext="up"/>
 </settings>
-<grid distance="0.1" unitdist="inch" unit="inch" style="dots" multiple="1" display="yes" altdistance="0.01" altunitdist="inch" altunit="inch"/>
+<grid distance="0.1" unitdist="inch" unit="inch" style="lines" multiple="1" display="no" altdistance="0.01" altunitdist="inch" altunit="inch"/>
 <layers>
 <layer number="1" name="Top" color="4" fill="1" visible="no" active="no"/>
 <layer number="2" name="Route2" color="1" fill="3" visible="no" active="no"/>
@@ -495,12 +495,13 @@ W = angled&lt;p&gt;
 <dimension x1="0" y1="279.4" x2="368.3" y2="279.4" x3="184.15" y3="279.908" textsize="1.778" layer="16" unit="inch"/>
 <dimension x1="163.322" y1="280.416" x2="161.544" y2="278.892" x3="162.020625" y3="280.135103125" textsize="1.778" layer="16" unit="inch"/>
 <dimension x1="0" y1="279.4" x2="368.3" y2="279.4" x3="184.15" y3="279.908" textsize="1.778" layer="16" unit="inch"/>
-<text x="802.386" y="147.32" size="10.16" layer="105" rot="MR0">Wymiary (sprawdzone):
+<text x="329.946" y="-76.2" size="10.16" layer="105" rot="MR0">Wymiary (sprawdzone):
 a1)Ni Elvis II (całość): 34.3cm (14.5 in) x 28.0cm (11.0 in)
 a2)Ni Elvis II (płyta): 27,94cm (11in) x 21,59cm(8in) 
 b)STM32F4DISCOVERY: 9,7cm(3,81 in) x 6,6cm(2,598 in)</text>
-<wire x1="0" y1="0" x2="0" y2="165.1" width="0.1524" layer="253" style="longdash"/>
-<wire x1="0" y1="165.1" x2="0" y2="203.2" width="0.1524" layer="253" style="longdash"/>
+<wire x1="0" y1="0" x2="0" y2="50.8" width="0.1524" layer="253" style="longdash"/>
+<wire x1="0" y1="50.8" x2="0" y2="152.4" width="0.1524" layer="253" style="longdash"/>
+<wire x1="0" y1="152.4" x2="0" y2="203.2" width="0.1524" layer="253" style="longdash"/>
 <wire x1="0" y1="203.2" x2="63.5" y2="203.2" width="0.1524" layer="253" style="longdash"/>
 <wire x1="63.5" y1="203.2" x2="274.32" y2="203.2" width="0.1524" layer="253" style="longdash"/>
 <wire x1="274.32" y1="203.2" x2="279.4" y2="203.2" width="0.1524" layer="253" style="longdash"/>
@@ -511,22 +512,20 @@ b)STM32F4DISCOVERY: 9,7cm(3,81 in) x 6,6cm(2,598 in)</text>
 <wire x1="279.4" y1="0" x2="274.32" y2="0" width="0.1524" layer="253" style="longdash"/>
 <dimension x1="0" y1="0" x2="0" y2="203.2" x3="-20.32" y3="101.6" textsize="1.778" layer="114" unit="inch"/>
 <dimension x1="279.4" y1="0" x2="0" y2="0" x3="139.7" y3="-5.08" textsize="1.778" layer="114" dtype="horizontal" unit="inch"/>
-<wire x1="274.32" y1="0" x2="0" y2="0" width="0.1524" layer="253" style="longdash"/>
-<wire x1="63.246" y1="38.354" x2="63.246" y2="0.254" width="0.1524" layer="253" style="shortdash"/>
-<wire x1="63.246" y1="38.354" x2="0.508" y2="38.354" width="0.1524" layer="253" style="shortdash"/>
+<wire x1="274.32" y1="0" x2="63.5" y2="0" width="0.1524" layer="253" style="longdash"/>
+<wire x1="63.5" y1="0" x2="0" y2="0" width="0.1524" layer="253" style="longdash"/>
+<wire x1="63.5" y1="50.8" x2="63.5" y2="0" width="0.1524" layer="253" style="shortdash"/>
+<wire x1="63.5" y1="50.8" x2="0" y2="50.8" width="0.1524" layer="253" style="shortdash"/>
 <wire x1="274.32" y1="0" x2="274.32" y2="5.08" width="0.1524" layer="253" style="shortdash"/>
 <wire x1="274.32" y1="5.08" x2="279.4" y2="5.08" width="0.1524" layer="253" style="shortdash"/>
 <wire x1="274.32" y1="198.12" x2="279.4" y2="198.12" width="0.1524" layer="253" style="shortdash"/>
 <wire x1="274.32" y1="203.2" x2="274.32" y2="198.12" width="0.1524" layer="253" style="shortdash"/>
-<wire x1="0" y1="165.1" x2="0.1016" y2="165.1" width="0.1524" layer="253" style="shortdash"/>
-<wire x1="0.4064" y1="165.1" x2="63.5" y2="165.1" width="0.1524" layer="253" style="shortdash"/>
-<wire x1="63.5" y1="165.1" x2="63.5" y2="202.7936" width="0.1524" layer="253" style="shortdash"/>
-<wire x1="63.5" y1="203.0984" x2="63.5" y2="203.2" width="0.1524" layer="253" style="shortdash"/>
-<wire x1="274.32" y1="198.12" x2="274.32" y2="114.3" width="0.1524" layer="102" style="longdash"/>
-<wire x1="274.32" y1="114.3" x2="152.4" y2="114.3" width="0.1524" layer="102" style="longdash"/>
-<wire x1="152.4" y1="114.3" x2="152.4" y2="198.12" width="0.1524" layer="102" style="longdash"/>
+<wire x1="0" y1="152.4" x2="63.5" y2="152.4" width="0.1524" layer="253" style="shortdash"/>
+<wire x1="63.5" y1="152.4" x2="63.5" y2="203.2" width="0.1524" layer="253" style="shortdash"/>
+<wire x1="274.32" y1="198.12" x2="274.32" y2="91.44" width="0.1524" layer="102" style="longdash"/>
+<wire x1="274.32" y1="91.44" x2="152.4" y2="91.44" width="0.1524" layer="102" style="longdash"/>
+<wire x1="152.4" y1="91.44" x2="152.4" y2="198.12" width="0.1524" layer="102" style="longdash"/>
 <wire x1="152.4" y1="198.12" x2="274.32" y2="198.12" width="0.1524" layer="102" style="longdash"/>
-<dimension x1="152.4" y1="114.3" x2="152.4" y2="198.12" x3="142.24" y3="156.21" textsize="1.778" layer="114" dtype="horizontal" unit="inch"/>
 <dimension x1="274.32" y1="114.3" x2="152.4" y2="114.3" x3="213.36" y3="104.14" textsize="1.778" layer="114" dtype="horizontal" unit="inch"/>
 <wire x1="274.32" y1="5.08" x2="152.4" y2="5.08" width="0.1524" layer="103" style="longdash"/>
 <wire x1="152.4" y1="5.08" x2="152.4" y2="88.9" width="0.1524" layer="103" style="longdash"/>
@@ -540,15 +539,24 @@ b)STM32F4DISCOVERY: 9,7cm(3,81 in) x 6,6cm(2,598 in)</text>
 <text x="190.5" y="132.08" size="2.54" layer="105">STM32F4xx DISCOVERY</text>
 <dimension x1="274.32" y1="203.2" x2="274.32" y2="198.12" x3="271.78" y3="200.66" textsize="2.54" layer="114" dtype="horizontal" unit="inch"/>
 <dimension x1="279.4" y1="198.12" x2="274.32" y2="195.58" x3="276.86" y3="195.58" textsize="2.54" layer="114" dtype="horizontal" unit="inch"/>
+<dimension x1="152.4" y1="198.12" x2="152.4" y2="91.44" x3="139.7" y3="144.78" textsize="1.778" layer="114" unit="inch"/>
+<dimension x1="0" y1="152.4" x2="63.5" y2="152.4" x3="31.75" y3="165.1" textsize="1.778" layer="114" unit="inch"/>
+<dimension x1="63.5" y1="203.2" x2="63.5" y2="152.4" x3="99.06" y3="177.8" textsize="1.778" layer="114" unit="inch"/>
+<dimension x1="63.5" y1="50.8" x2="0" y2="12.7" x3="31.75" y3="15.24" textsize="1.778" layer="114" dtype="horizontal" unit="inch"/>
+<dimension x1="0" y1="0" x2="25.4" y2="50.8" x3="99.06" y3="25.4" textsize="1.778" layer="114" dtype="vertical" unit="inch"/>
+<dimension x1="63.5" y1="152.4" x2="63.5" y2="50.8" x3="99.06" y3="101.6" textsize="1.778" layer="114" dtype="vertical" unit="inch"/>
+<dimension x1="88.9" y1="50.8" x2="152.4" y2="50.8" x3="120.65" y3="76.2" textsize="1.778" layer="114" dtype="vertical" unit="inch"/>
+<dimension x1="63.5" y1="50.8" x2="152.4" y2="50.8" x3="107.95" y3="81.28" textsize="1.778" layer="114" dtype="vertical" unit="inch"/>
+<dimension x1="88.9" y1="152.4" x2="35.56" y2="152.4" x3="62.23" y3="134.62" textsize="1.778" layer="114" dtype="vertical" unit="inch"/>
 </plain>
 <instances>
-<instance part="SV1" gate="G$1" x="63.5" y="165.1" smashed="yes" rot="MR90">
-<attribute name="VALUE" x="33.02" y="161.29" size="1.778" layer="96" rot="MR90"/>
-<attribute name="NAME" x="89.662" y="161.29" size="1.778" layer="95" rot="MR90"/>
+<instance part="SV1" gate="G$1" x="63.5" y="152.4" smashed="yes" rot="MR90">
+<attribute name="VALUE" x="33.02" y="148.59" size="1.778" layer="96" rot="MR90"/>
+<attribute name="NAME" x="89.662" y="148.59" size="1.778" layer="95" rot="MR90"/>
 </instance>
-<instance part="SV2" gate="G$1" x="63.246" y="38.354" smashed="yes" rot="R270">
-<attribute name="VALUE" x="32.766" y="42.164" size="1.778" layer="96" rot="R270"/>
-<attribute name="NAME" x="89.408" y="42.164" size="1.778" layer="95" rot="R270"/>
+<instance part="SV2" gate="G$1" x="63.5" y="50.8" smashed="yes" rot="R270">
+<attribute name="VALUE" x="33.02" y="54.61" size="1.778" layer="96" rot="R270"/>
+<attribute name="NAME" x="89.662" y="54.61" size="1.778" layer="95" rot="R270"/>
 </instance>
 </instances>
 <busses>
