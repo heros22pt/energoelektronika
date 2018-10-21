@@ -57,8 +57,15 @@
 <layer number="47" name="Measures" color="7" fill="1" visible="no" active="no"/>
 <layer number="48" name="Document" color="7" fill="1" visible="no" active="no"/>
 <layer number="49" name="Reference" color="7" fill="1" visible="no" active="no"/>
+<layer number="50" name="dxf" color="7" fill="1" visible="no" active="no"/>
 <layer number="51" name="tDocu" color="7" fill="1" visible="no" active="no"/>
 <layer number="52" name="bDocu" color="7" fill="1" visible="no" active="no"/>
+<layer number="53" name="tGND_GNDA" color="7" fill="9" visible="no" active="no"/>
+<layer number="54" name="bGND_GNDA" color="1" fill="9" visible="no" active="no"/>
+<layer number="56" name="wert" color="7" fill="1" visible="no" active="no"/>
+<layer number="57" name="tCAD" color="7" fill="1" visible="no" active="no"/>
+<layer number="59" name="tCarbon" color="7" fill="1" visible="no" active="no"/>
+<layer number="60" name="bCarbon" color="7" fill="1" visible="no" active="no"/>
 <layer number="88" name="SimResults" color="9" fill="1" visible="yes" active="yes"/>
 <layer number="89" name="SimProbes" color="9" fill="1" visible="yes" active="yes"/>
 <layer number="90" name="Modules" color="5" fill="1" visible="yes" active="yes"/>
@@ -70,12 +77,24 @@
 <layer number="96" name="Values" color="7" fill="1" visible="yes" active="yes"/>
 <layer number="97" name="Info" color="7" fill="1" visible="yes" active="yes"/>
 <layer number="98" name="Guide" color="6" fill="1" visible="yes" active="yes"/>
+<layer number="99" name="SpiceOrder" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="100" name="Muster" color="7" fill="1" visible="no" active="no"/>
 <layer number="101" name="pł_glowna" color="12" fill="1" visible="yes" active="yes"/>
 <layer number="102" name="pł_ster" color="3" fill="1" visible="yes" active="yes"/>
 <layer number="103" name="pł_syg-wy" color="14" fill="1" visible="yes" active="yes"/>
 <layer number="104" name="STM" color="11" fill="1" visible="yes" active="yes"/>
 <layer number="105" name="Tekst" color="7" fill="1" visible="yes" active="yes"/>
 <layer number="114" name="wymiary" color="1" fill="1" visible="yes" active="yes"/>
+<layer number="217" name="217bmp" color="18" fill="1" visible="no" active="no"/>
+<layer number="218" name="218bmp" color="19" fill="1" visible="no" active="no"/>
+<layer number="219" name="219bmp" color="20" fill="1" visible="no" active="no"/>
+<layer number="220" name="220bmp" color="21" fill="1" visible="no" active="no"/>
+<layer number="221" name="221bmp" color="22" fill="1" visible="no" active="no"/>
+<layer number="222" name="222bmp" color="23" fill="1" visible="no" active="no"/>
+<layer number="223" name="223bmp" color="24" fill="1" visible="no" active="no"/>
+<layer number="224" name="224bmp" color="25" fill="1" visible="no" active="no"/>
+<layer number="250" name="Descript" color="3" fill="1" visible="no" active="no"/>
+<layer number="251" name="SMDround" color="12" fill="11" visible="no" active="no"/>
 <layer number="253" name="Obwód" color="4" fill="1" visible="yes" active="yes"/>
 </layers>
 <schematic xreflabel="%F%N/%S.%C%R" xrefpart="/%S.%C%R">
@@ -462,6 +481,91 @@ W = angled&lt;p&gt;
 </deviceset>
 </devicesets>
 </library>
+<library name="SparkFun-Connectors" urn="urn:adsk.eagle:library:513">
+<description>&lt;h3&gt;SparkFun Connectors&lt;/h3&gt;
+This library contains electrically-functional connectors. 
+&lt;br&gt;
+&lt;br&gt;
+We've spent an enormous amount of time creating and checking these footprints and parts, but it is &lt;b&gt; the end user's responsibility&lt;/b&gt; to ensure correctness and suitablity for a given componet or application. 
+&lt;br&gt;
+&lt;br&gt;If you enjoy using this library, please buy one of our products at &lt;a href=" www.sparkfun.com"&gt;SparkFun.com&lt;/a&gt;.
+&lt;br&gt;
+&lt;br&gt;
+&lt;b&gt;Licensing:&lt;/b&gt; Creative Commons ShareAlike 4.0 International - https://creativecommons.org/licenses/by-sa/4.0/ 
+&lt;br&gt;
+&lt;br&gt;
+You are welcome to use this library for commercial purposes. For attribution, we ask that when you begin to sell your device using our footprint, you email us with a link to the product being sold. We want bragging rights that we helped (in a very small part) to create your 8th world wonder. We would like the opportunity to feature your device on our homepage.</description>
+<packages>
+<package name="BANANA_CONN" urn="urn:adsk.eagle:footprint:37619/1" library_version="1">
+<description>&lt;h3&gt;Banana Plug PTH&lt;/h3&gt;
+0.2" diameter pad, 0.1" hole. 
+&lt;p&gt;Specifications:
+&lt;ul&gt;&lt;li&gt;Pin count: 1&lt;/li&gt;
+&lt;/ul&gt;&lt;/p&gt;
+&lt;p&gt;Example device(s):
+&lt;ul&gt;&lt;li&gt;BANANA_CONN&lt;/li&gt;
+&lt;/ul&gt;&lt;/p&gt;</description>
+<circle x="0" y="0" radius="2.8398" width="0.127" layer="21"/>
+<pad name="P$1" x="0" y="0" drill="3.81" diameter="5.461"/>
+<text x="-2.54" y="3.302" size="0.6096" layer="25" font="vector" ratio="20">&gt;NAME</text>
+<text x="-2.54" y="-3.937" size="0.6096" layer="27" font="vector" ratio="20">&gt;VALUE</text>
+</package>
+</packages>
+<packages3d>
+<package3d name="BANANA_CONN" urn="urn:adsk.eagle:package:38018/1" type="box" library_version="1">
+<description>Banana Plug PTH
+0.2" diameter pad, 0.1" hole. 
+Specifications:
+Pin count: 1
+
+Example device(s):
+BANANA_CONN
+</description>
+<packageinstances>
+<packageinstance name="BANANA_CONN"/>
+</packageinstances>
+</package3d>
+</packages3d>
+<symbols>
+<symbol name="BANANA_CONN" urn="urn:adsk.eagle:symbol:37618/1" library_version="1">
+<description>&lt;h3&gt;Through-hole Banana Jack&lt;/h3&gt;
+&lt;p&gt;Basic PTH connection for banana jack plugs&lt;/p&gt;</description>
+<circle x="0" y="0" radius="1.2951" width="0.254" layer="94"/>
+<text x="-1.016" y="1.778" size="1.778" layer="95" font="vector">&gt;NAME</text>
+<text x="-1.016" y="-3.048" size="1.778" layer="96" font="vector">&gt;VALUE</text>
+<pin name="1" x="-2.54" y="0" visible="off" length="short" direction="pas"/>
+</symbol>
+</symbols>
+<devicesets>
+<deviceset name="BANANA_CONN" urn="urn:adsk.eagle:component:38313/1" prefix="J" uservalue="yes" library_version="1">
+<description>&lt;h3&gt;Through-hole Banana Jack&lt;/h3&gt;
+&lt;p&gt;Basic PTH connection for banana jack plugs&lt;/p&gt;
+&lt;p&gt;SparkFun Products:
+&lt;ul&gt;&lt;li&gt;&lt;a href="https://www.sparkfun.com/products/retired/10956"&gt;Multimeter Kit&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href="https://www.sparkfun.com/products/retired/509"&gt;Banana to Alligator Cable&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href="https://www.sparkfun.com/products/retired/508"&gt;Banana to Alligator Coax Cable&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href="https://www.sparkfun.com/products/retired/507"&gt;Banana to Banana Cable&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href="https://www.sparkfun.com/products/retired/506"&gt;Banana to IC Hook Cables&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;&lt;/p&gt;</description>
+<gates>
+<gate name="G$1" symbol="BANANA_CONN" x="-2.54" y="0"/>
+</gates>
+<devices>
+<device name="" package="BANANA_CONN">
+<connects>
+<connect gate="G$1" pin="1" pad="P$1"/>
+</connects>
+<package3dinstances>
+<package3dinstance package3d_urn="urn:adsk.eagle:package:38018/1"/>
+</package3dinstances>
+<technologies>
+<technology name=""/>
+</technologies>
+</device>
+</devices>
+</deviceset>
+</devicesets>
+</library>
 </libraries>
 <attributes>
 </attributes>
@@ -478,6 +582,15 @@ W = angled&lt;p&gt;
 <part name="SV2" library="con-lstb" library_urn="urn:adsk.eagle:library:162" deviceset="MA20-2" device="" package3d_urn="urn:adsk.eagle:package:8338/1">
 <attribute name="SPICEPREFIX" value="X"/>
 </part>
+<part name="J1" library="SparkFun-Connectors" library_urn="urn:adsk.eagle:library:513" deviceset="BANANA_CONN" device="" package3d_urn="urn:adsk.eagle:package:38018/1"/>
+<part name="J2" library="SparkFun-Connectors" library_urn="urn:adsk.eagle:library:513" deviceset="BANANA_CONN" device="" package3d_urn="urn:adsk.eagle:package:38018/1"/>
+<part name="J3" library="SparkFun-Connectors" library_urn="urn:adsk.eagle:library:513" deviceset="BANANA_CONN" device="" package3d_urn="urn:adsk.eagle:package:38018/1"/>
+<part name="J4" library="SparkFun-Connectors" library_urn="urn:adsk.eagle:library:513" deviceset="BANANA_CONN" device="" package3d_urn="urn:adsk.eagle:package:38018/1"/>
+<part name="J5" library="SparkFun-Connectors" library_urn="urn:adsk.eagle:library:513" deviceset="BANANA_CONN" device="" package3d_urn="urn:adsk.eagle:package:38018/1"/>
+<part name="J6" library="SparkFun-Connectors" library_urn="urn:adsk.eagle:library:513" deviceset="BANANA_CONN" device="" package3d_urn="urn:adsk.eagle:package:38018/1"/>
+<part name="J10" library="SparkFun-Connectors" library_urn="urn:adsk.eagle:library:513" deviceset="BANANA_CONN" device="" package3d_urn="urn:adsk.eagle:package:38018/1"/>
+<part name="J11" library="SparkFun-Connectors" library_urn="urn:adsk.eagle:library:513" deviceset="BANANA_CONN" device="" package3d_urn="urn:adsk.eagle:package:38018/1"/>
+<part name="J12" library="SparkFun-Connectors" library_urn="urn:adsk.eagle:library:513" deviceset="BANANA_CONN" device="" package3d_urn="urn:adsk.eagle:package:38018/1"/>
 </parts>
 <sheets>
 <sheet>
@@ -499,11 +612,8 @@ W = angled&lt;p&gt;
 a1)Ni Elvis II (całość): 34.3cm (14.5 in) x 28.0cm (11.0 in)
 a2)Ni Elvis II (płyta): 27,94cm (11in) x 21,59cm(8in) 
 b)STM32F4DISCOVERY: 9,7cm(3,81 in) x 6,6cm(2,598 in)</text>
-<wire x1="0" y1="0" x2="0" y2="50.8" width="0.1524" layer="253" style="longdash"/>
-<wire x1="0" y1="50.8" x2="0" y2="152.4" width="0.1524" layer="253" style="longdash"/>
-<wire x1="0" y1="152.4" x2="0" y2="203.2" width="0.1524" layer="253" style="longdash"/>
-<wire x1="0" y1="203.2" x2="63.5" y2="203.2" width="0.1524" layer="253" style="longdash"/>
-<wire x1="63.5" y1="203.2" x2="274.32" y2="203.2" width="0.1524" layer="253" style="longdash"/>
+<wire x1="0" y1="0" x2="0" y2="203.2" width="0.1524" layer="253" style="longdash"/>
+<wire x1="0" y1="203.2" x2="274.32" y2="203.2" width="0.1524" layer="253" style="longdash"/>
 <wire x1="274.32" y1="203.2" x2="279.4" y2="203.2" width="0.1524" layer="253" style="longdash"/>
 <wire x1="279.4" y1="203.2" x2="279.4" y2="198.12" width="0.1524" layer="253" style="longdash"/>
 <rectangle x1="162.56" y1="124.46" x2="259.56" y2="190.46" layer="104"/>
@@ -512,16 +622,11 @@ b)STM32F4DISCOVERY: 9,7cm(3,81 in) x 6,6cm(2,598 in)</text>
 <wire x1="279.4" y1="0" x2="274.32" y2="0" width="0.1524" layer="253" style="longdash"/>
 <dimension x1="0" y1="0" x2="0" y2="203.2" x3="-20.32" y3="101.6" textsize="1.778" layer="114" unit="inch"/>
 <dimension x1="279.4" y1="0" x2="0" y2="0" x3="139.7" y3="-5.08" textsize="1.778" layer="114" dtype="horizontal" unit="inch"/>
-<wire x1="274.32" y1="0" x2="63.5" y2="0" width="0.1524" layer="253" style="longdash"/>
-<wire x1="63.5" y1="0" x2="0" y2="0" width="0.1524" layer="253" style="longdash"/>
-<wire x1="63.5" y1="50.8" x2="63.5" y2="0" width="0.1524" layer="253" style="shortdash"/>
-<wire x1="63.5" y1="50.8" x2="0" y2="50.8" width="0.1524" layer="253" style="shortdash"/>
+<wire x1="274.32" y1="0" x2="0" y2="0" width="0.1524" layer="253" style="longdash"/>
 <wire x1="274.32" y1="0" x2="274.32" y2="5.08" width="0.1524" layer="253" style="shortdash"/>
 <wire x1="274.32" y1="5.08" x2="279.4" y2="5.08" width="0.1524" layer="253" style="shortdash"/>
 <wire x1="274.32" y1="198.12" x2="279.4" y2="198.12" width="0.1524" layer="253" style="shortdash"/>
 <wire x1="274.32" y1="203.2" x2="274.32" y2="198.12" width="0.1524" layer="253" style="shortdash"/>
-<wire x1="0" y1="152.4" x2="63.5" y2="152.4" width="0.1524" layer="253" style="shortdash"/>
-<wire x1="63.5" y1="152.4" x2="63.5" y2="203.2" width="0.1524" layer="253" style="shortdash"/>
 <wire x1="274.32" y1="198.12" x2="274.32" y2="91.44" width="0.1524" layer="102" style="longdash"/>
 <wire x1="274.32" y1="91.44" x2="152.4" y2="91.44" width="0.1524" layer="102" style="longdash"/>
 <wire x1="152.4" y1="91.44" x2="152.4" y2="198.12" width="0.1524" layer="102" style="longdash"/>
@@ -548,6 +653,12 @@ b)STM32F4DISCOVERY: 9,7cm(3,81 in) x 6,6cm(2,598 in)</text>
 <dimension x1="88.9" y1="50.8" x2="152.4" y2="50.8" x3="120.65" y3="76.2" textsize="1.778" layer="114" dtype="vertical" unit="inch"/>
 <dimension x1="63.5" y1="50.8" x2="152.4" y2="50.8" x3="107.95" y3="81.28" textsize="1.778" layer="114" dtype="vertical" unit="inch"/>
 <dimension x1="88.9" y1="152.4" x2="35.56" y2="152.4" x3="62.23" y3="134.62" textsize="1.778" layer="114" dtype="vertical" unit="inch"/>
+<dimension x1="12.7" y1="121.92" x2="12.7" y2="109.22" x3="12.7" y3="115.57" textsize="1.778" layer="91" unit="inch"/>
+<dimension x1="12.7" y1="96.52" x2="12.7" y2="109.22" x3="12.7" y3="102.87" textsize="1.778" layer="91" unit="inch"/>
+<dimension x1="12.7" y1="109.22" x2="0" y2="109.22" x3="6.35" y3="127" textsize="1.778" layer="91" unit="inch"/>
+<dimension x1="86.36" y1="190.5" x2="86.36" y2="203.2" x3="81.28" y3="196.85" textsize="1.778" layer="114" unit="inch"/>
+<dimension x1="86.36" y1="190.5" x2="127" y2="190.5" x3="106.68" y3="195.58" textsize="1.778" layer="114" unit="inch"/>
+<dimension x1="127" y1="195.58" x2="139.7" y2="195.58" x3="133.35" y3="190.5" textsize="1.778" layer="114" unit="inch"/>
 </plain>
 <instances>
 <instance part="SV1" gate="G$1" x="63.5" y="152.4" smashed="yes" rot="MR90">
@@ -558,6 +669,15 @@ b)STM32F4DISCOVERY: 9,7cm(3,81 in) x 6,6cm(2,598 in)</text>
 <attribute name="VALUE" x="33.02" y="54.61" size="1.778" layer="96" rot="R270"/>
 <attribute name="NAME" x="89.662" y="54.61" size="1.778" layer="95" rot="R270"/>
 </instance>
+<instance part="J1" gate="G$1" x="12.7" y="121.92" rot="R180"/>
+<instance part="J2" gate="G$1" x="12.7" y="109.22" rot="R180"/>
+<instance part="J3" gate="G$1" x="12.7" y="96.52" rot="R180"/>
+<instance part="J4" gate="G$1" x="99.06" y="190.5" rot="R90"/>
+<instance part="J5" gate="G$1" x="86.36" y="190.5" rot="R90"/>
+<instance part="J6" gate="G$1" x="73.66" y="190.5" rot="MR90"/>
+<instance part="J10" gate="G$1" x="139.7" y="190.5" rot="R90"/>
+<instance part="J11" gate="G$1" x="127" y="190.5" rot="R90"/>
+<instance part="J12" gate="G$1" x="114.3" y="190.5" rot="MR90"/>
 </instances>
 <busses>
 </busses>
@@ -565,6 +685,55 @@ b)STM32F4DISCOVERY: 9,7cm(3,81 in) x 6,6cm(2,598 in)</text>
 <net name="N$1" class="0">
 <segment>
 <wire x1="63.5" y1="-35.814" x2="65.786" y2="-35.814" width="0.1524" layer="91" style="shortdash"/>
+</segment>
+</net>
+<net name="L1" class="0">
+<segment>
+<pinref part="J1" gate="G$1" pin="1"/>
+<wire x1="15.24" y1="121.92" x2="20.32" y2="121.92" width="0.1524" layer="91"/>
+<label x="20.32" y="121.92" size="1.778" layer="95"/>
+</segment>
+</net>
+<net name="L2" class="0">
+<segment>
+<pinref part="J2" gate="G$1" pin="1"/>
+<wire x1="15.24" y1="109.22" x2="20.32" y2="109.22" width="0.1524" layer="91"/>
+<label x="20.32" y="109.22" size="1.778" layer="95"/>
+</segment>
+</net>
+<net name="L3" class="0">
+<segment>
+<pinref part="J3" gate="G$1" pin="1"/>
+<wire x1="15.24" y1="96.52" x2="20.32" y2="96.52" width="0.1524" layer="91"/>
+<label x="20.32" y="96.52" size="1.778" layer="95"/>
+</segment>
+</net>
+<net name="V+" class="0">
+<segment>
+<pinref part="J4" gate="G$1" pin="1"/>
+<wire x1="99.06" y1="187.96" x2="99.06" y2="185.42" width="0.1524" layer="91"/>
+<wire x1="99.06" y1="185.42" x2="86.36" y2="185.42" width="0.1524" layer="91"/>
+<pinref part="J5" gate="G$1" pin="1"/>
+<wire x1="86.36" y1="185.42" x2="86.36" y2="187.96" width="0.1524" layer="91"/>
+<wire x1="86.36" y1="185.42" x2="73.66" y2="185.42" width="0.1524" layer="91"/>
+<junction x="86.36" y="185.42"/>
+<pinref part="J6" gate="G$1" pin="1"/>
+<wire x1="73.66" y1="185.42" x2="73.66" y2="187.96" width="0.1524" layer="91"/>
+<label x="86.36" y="182.88" size="1.778" layer="95" rot="R270"/>
+</segment>
+</net>
+<net name="GND" class="0">
+<segment>
+<pinref part="J10" gate="G$1" pin="1"/>
+<wire x1="139.7" y1="187.96" x2="139.7" y2="185.42" width="0.1524" layer="91"/>
+<wire x1="139.7" y1="185.42" x2="127" y2="185.42" width="0.1524" layer="91"/>
+<pinref part="J11" gate="G$1" pin="1"/>
+<wire x1="127" y1="185.42" x2="127" y2="187.96" width="0.1524" layer="91"/>
+<wire x1="127" y1="185.42" x2="114.3" y2="185.42" width="0.1524" layer="91"/>
+<junction x="127" y="185.42"/>
+<pinref part="J12" gate="G$1" pin="1"/>
+<wire x1="114.3" y1="185.42" x2="114.3" y2="187.96" width="0.1524" layer="91"/>
+<label x="127" y="182.88" size="1.778" layer="95" rot="R270"/>
 </segment>
 </net>
 </nets>
